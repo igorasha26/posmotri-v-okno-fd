@@ -9,6 +9,9 @@ html {
 }
 
 .page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   inline-size: 1200px;
   block-size: 100%;
   margin: auto;
@@ -48,12 +51,6 @@ ol {
 
 .custom-scrollbar::-webkit-scrollbar-thumb {
   background-color: #d9d9d9;
-}
-
-.page {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .content {
@@ -228,7 +225,7 @@ ol {
   color: #fff;
   font-family: Oswald, sans-serif;
   font-size: 75px;
-  font-style: 700;
+  font-style: 700 ;
   line-height: 94%;
   letter-spacing: 0;
   text-transform: uppercase;
@@ -298,7 +295,6 @@ ol {
   font-family: "Fira Sans Condensed", sans-serif;
   display: -webkit-box;
   -webkit-line-clamp: 4;
-  display: -webkit-box;
   -webkit-box-orient: vertical;
   overflow: hidden;
   padding-top: 6px;
